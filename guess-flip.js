@@ -7,11 +7,16 @@ import {flipACoin} from './modules/coin.mjs';
 // get argument from command line
 const args = minimist(process.argv.slice(2))
 
-//if no number arg, default to 1
-if (args.call == undefined) {
-    Error("No input");
-} else if (args.call != "heads" || args.call != "tails") {
-    Error("Invalid input");
+//if no call arg, exit with error
+if (args.call === undefined) {
+    console.log("Error: No input")
+    process.exit(0);
+} 
+console.log(args.call);
+//if invalid call - exit with error
+if (args.call.trim() !== "tails"|| args.call.trim() !== "heads") {
+    console.log("Error: Invalid input")
+    process.exit(0);
 }
 
 console.log(flipACoin(args.call));
