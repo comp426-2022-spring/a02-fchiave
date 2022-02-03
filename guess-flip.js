@@ -12,9 +12,9 @@ if (args.call === undefined) {
     console.log("Error: No input")
     process.exit(0);
 } 
-console.log(args.call);
+
 //if invalid call - exit with error
-if (args.call.trim() !== "tails"|| args.call.trim() !== "heads") {
+if (args.call === 'tails' && args.call === 'heads') {
     console.log("Error: Invalid input")
     process.exit(0);
 }
