@@ -4,7 +4,10 @@
   "description": "\"This is a simple package that emulates coin flips in several different ways.\"",
   "main": "flip.js",
   "scripts": {
-    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\"",
+    "flip": "node flip.js",
+	    "flips": "node flips.js",
+	    "guess-flip": "node guess-flip.js"
   },
   "repository": {
     "type": "git",
@@ -13,6 +16,7 @@
   "keywords": [
     "modules"
   ],
+  "type": "module",
   "author": "Felipe Chiavegatto",
   "license": "GPL-3.0-only",
   "bugs": {
