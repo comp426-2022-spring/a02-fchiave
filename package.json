@@ -1,0 +1,22 @@
+{
+  "name": "coinflip",
+  "version": "1.0.0",
+  "description": "\"This is a simple package that emulates coin flips in several different ways.\"",
+  "main": "flip.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-spring/a02-fchiave.git"
+  },
+  "keywords": [
+    "modules"
+  ],
+  "author": "Felipe Chiavegatto",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-spring/a02-fchiave/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-spring/a02-fchiave#readme"
+}
