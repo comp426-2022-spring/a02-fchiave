@@ -82,9 +82,8 @@ function countFlips(array) {
  */
 
 function flipACoin(call) {
-  if (call != "heads" || call != "tails") {
-    
-  }
+  let flip = coinFlip();
+  return {call: call, flip: flip, result: flip == call ? "win" : "lose" }
 }
 
 
