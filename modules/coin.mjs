@@ -82,7 +82,9 @@ function countFlips(array) {
  */
 
 function flipACoin(call) {
-
+  if (call != "heads" || call != "tails") {
+    
+  }
 }
 
 
