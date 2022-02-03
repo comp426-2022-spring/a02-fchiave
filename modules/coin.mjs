@@ -15,7 +15,7 @@
  */
 
 function coinFlip() {
-  return Math.random(0, 2) == 0 ? "heads" : "tails"
+  return Math.floor(Math.random() * 2) == 0 ? "heads" : "tails"
 }
 
 /** Multiple coin flips
