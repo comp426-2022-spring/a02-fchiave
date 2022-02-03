@@ -14,7 +14,7 @@ if (args.call === undefined) {
 } 
 
 //if invalid call - exit with error
-if (args.call === 'tails' && args.call === 'heads') {
+if (args.call !== 'tails' && args.call !== 'heads') {
     console.log("Error: Invalid input")
     process.exit(0);
 }
