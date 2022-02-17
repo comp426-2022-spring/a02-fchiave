@@ -9,13 +9,15 @@ const args = minimist(process.argv.slice(2))
 
 //if no call arg, exit with error
 if (args.call === undefined) {
-    console.log("Error: no input")
+    //console.log("Error: no input")
+    console.log("Usage: node guess-flip --call=[heads|tails]")
     process.exit(0);
 } 
 
 //if invalid call - exit with error
 if (args.call !== 'tails' && args.call !== 'heads') {
-    console.log("Error: Invalid input")
+    //console.log("Error: Invalid input")
+    console.log("Usage: node guess-flip --call=[heads|tails]")
     process.exit(0);
 }
 
